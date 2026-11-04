@@ -1,0 +1,13 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+logs/*.log
+data/raw/*.csv
+data/processed/*.csv
+*.zip
+# models/*.joblib are small here and are versioned on purpose (needed by Docker build)

@@ -1,0 +1,28 @@
+{
+  "best_params": {
+    "clf__C": "10",
+    "tfidf__ngram_range": "(1, 1)"
+  },
+  "accuracy": 0.8927250308261405,
+  "f1_per_class": {
+    "-1": 0.81984496124031,
+    "0": 0.9272761977476618,
+    "1": 0.9015324421258559
+  },
+  "f1_macro": 0.8828845337046092,
+  "inference_ms_batch50": 1.0470781999998735,
+  "algorithm_comparison": {
+    "LogisticRegression": {
+      "accuracy": 0.8431238225723583,
+      "f1_macro": 0.8327762967675455
+    },
+    "LinearSVC": {
+      "accuracy": 0.8700119883541703,
+      "f1_macro": 0.8572602322903892
+    },
+    "RandomForest": {
+      "accuracy": 0.767939715704744,
+      "f1_macro": 0.70245396386796
+    }
+  }
+}
