@@ -19,7 +19,6 @@ def main():
     PROC.mkdir(parents=True, exist_ok=True)
     df.to_csv(PROC / "clean.csv", index=False)
 
-    # stratified + fixed seed => same split on every run
     train, test = train_test_split(df, test_size=TEST_SIZE, random_state=SEED, stratify=df["label"])
     train.to_csv(PROC / "train.csv", index=False)
     test.to_csv(PROC / "test.csv", index=False)

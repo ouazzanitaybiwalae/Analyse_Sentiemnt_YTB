@@ -1,4 +1,4 @@
-"""Phase 2 - exploratory analysis: class distribution + text length."""
+"""Phase 3 - exploratory analysis: class distribution + text length."""
 from pathlib import Path
 import pandas as pd
 import matplotlib
